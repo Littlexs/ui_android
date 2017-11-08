@@ -120,26 +120,20 @@ public class ClassifyActivity extends AppCompatActivity implements AdapterView.O
      */
     @Override
     public void check(RightItemAdapter rightItemAdapter, List<Classify.Child.Item> itemList, boolean isCheck, int position) {
-        if (selectCount<3 && !isCheck && leftSelectCount<2){
+        if (selectCount<3 && !isCheck){
             selectCount++;
-            if (!leftTarget.isCheckChild()){
-                leftSelectCount++;
-            }
             itemList.get(position).setCheck(!isCheck);
             rightItemAdapter.refresh(itemList);
             leftTarget.setCheckChild(selectCount!=0);
             leftAdapter.notifyDataSetChanged();
         }else if (isCheck){
             selectCount = selectCount==0?0:--selectCount;
-            if (selectCount==0){
-                leftSelectCount = leftSelectCount==0?0:--leftSelectCount;
-            }
             itemList.get(position).setCheck(!isCheck);
             rightItemAdapter.refresh(itemList);
             leftTarget.setCheckChild(selectCount!=0);
             leftAdapter.notifyDataSetChanged();
         }else {
-            Toast.makeText(this,leftSelectCount==2?"最多选2个主菜单":"最多选3个子菜单",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"最多选3个子菜单",Toast.LENGTH_SHORT).show();
         }
     }
 
