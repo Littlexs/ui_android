@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_color">#2692ff</color>
+    <color name="white">#fff</color>
+    <color name="_eee">#eeeeee</color>
+    <color name="_bbb">#bbbbbb</color>
+    <color name="_666">#666666</color>
+    <color name="_888">#888888</color>
+    <color name="_333">#333333</color>
+    <color name="_838383">#838383</color>
+    <color name="_f1f1f1">#f1f1f1</color>
+    <color name="_525252">#525252</color>
+    <color name="_999">#999999</color>
+    <color name="_777">#777777</color>
+    <color name="_f7f7f7">#f7f7f7</color>
+    <color name="_444">#444444</color>
+    <color name="_009a44">#009a44</color>
+    <color name="_007744">#007744</color>
+    <color name="_555">#555555</color>
+    <color name="_ed6d00">#ed6d00</color>
+    <color name="_eb3c42">#eb3c42</color>
+    <color name="_fefefe">#fefefe</color>
+    <color name="_ff2c4f">#ff2c4f</color>
+    <color name="_808080">#808080</color>
+    <color name="_b0b0b0">#b0b0b0</color>
+    <color name="_ee8e3d">#ee8e3d</color>
+    <color name="_f5f4f9">#f5f4f9</color>
+    <color name="_f5f5f5">#f5f5f5</color>
+    <color name="_fc6751">#fc6751</color>
+    <color name="_fffefe">#fffefe</color>
+    <color name="_fd7065">#fd7065</color>
+    <color name="_c4c4c4">#c4c4c4</color>
+    <color name="_e5e5e5">#e5e5e5</color>
+    <color name="_666562">#666562</color>
+    <color name="_f3f5f6">#f3f5f6</color>
+    <color name="_7cb2ff">#7cb2ff</color>
+    <color name="_66e04a">#66e04a</color>
+    <color name="_ffa04c">#ffa04c</color>
+    <color name="_ff8519">#ff8519</color>
+    <color name="_ff230a">#ff230a</color>
+    <color name="_63b1ff">#63b1ff</color>
+    <color name="_86d982">#86d982</color>
+    <color name="_2692ff">#2692ff</color>
+
+    <color name="_1c91ff">#1c91ff</color>
+    <color name="_70bcff">#70bcff</color>
+    <color name="_fa3719">#fa3719</color>
+    <color name="_f97661">#f97661</color>
+
+    <color name="_3cb021">#3cb021</color>
+    <color name="_83d471">#83d471</color>
+
+    <color name="_CC99FF">#CC99FF</color>
+
+    <color name="_7ffffffff">#7fffffff</color>
+
+    <color name="_ffF44336">#ffF44336</color>
+    <color name="_ff4CAF50">#ff4CAF50</color>
+</resources>
