@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.grid_viewpager.GridViewPagerActivity" />
-        <activity android:name=".ui.classify.ClassifyActivity"></activity>
+        <activity android:name=".ui.classify.ClassifyActivity" />
+        <activity android:name=".popuwindow.PopuActivity"></activity>
     </application>
 
 </manifest>

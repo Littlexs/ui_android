@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
+import com.bdxk.android.ui_android.popuwindow.PopuActivity;
 import com.bdxk.android.ui_android.ui.classify.ClassifyActivity;
 import com.bdxk.android.ui_android.ui.grid_viewpager.GridViewPagerActivity;
 
@@ -36,5 +37,9 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btn2)
     public void onViewClicked2() {
         openActivity(ClassifyActivity.class);
+    }
+    @OnClick(R.id.btn3)
+    public void onViewClicked3() {
+        openActivity(PopuActivity.class);
     }
 }

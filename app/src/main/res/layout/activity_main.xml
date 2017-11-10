@@ -21,5 +21,11 @@
             android:textAllCaps="false"
             android:layout_height="wrap_content"
             android:text="多选分类"  />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:text="popuwindow弹出分类"  />
     </LinearLayout>
 </ScrollView>
