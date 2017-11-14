@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#88000000"
+    android:layout_height="match_parent">
+    <com.bdxk.android.ui_android.common.NoScrollGridView
+        android:id="@+id/gridView"
+        android:scrollbars="none"
+        android:numColumns="3"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

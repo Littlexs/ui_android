@@ -35,12 +35,10 @@ public class MyPopupWindow extends PopupWindow implements PopupWindow.OnDismissL
         this.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
         this.setContentView(LayoutInflater.from(activity).inflate(R.layout.popup_layout1,null));//设置布局
         this.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        this.setAnimationStyle(R.style.PopupWindow);
+        this.setAnimationStyle(R.style.SelectPopupWindow);
         this.setOutsideTouchable(true);
         this.setFocusable(true);
         this.setOnDismissListener(this);
-
-        popupWindow = this;
     }
 
     //显示

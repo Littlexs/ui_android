@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="PopupWindow">
+    <style name="SelectPopupWindow">
         <item name="android:windowEnterAnimation">@anim/p_in</item>
         <item name="android:windowExitAnimation">@anim/p_out</item>
     </style>
